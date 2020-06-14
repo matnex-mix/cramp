@@ -3,7 +3,8 @@ Written in PHP, cramp uses crude and old methods to bring to life a fully functi
 
 ### Usage
 - Open `index.php`
-- Set the CRAMP_BASE constant to your base location
+- Set the `CRAMP_BASE` constant to your base location
+- Set the optional parameter `QUOTA` to the size availabe for the file manager
 - Hurray! You're ready to go.
 
 **Managed By: *Matnex Mix (matnex.mix@gmail.com)***
