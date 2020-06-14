@@ -10,7 +10,7 @@ session_start();
 
 define( 'CRAMP_INIT', true );
 if( true ){ #debug is false
-define( 'CRAMP_BASE', realpath( '.' ) );
+define( 'CRAMP_BASE', realpath( './testFolder/' ) );
 } else {
 define( 'CRAMP_BASE', realpath( __DIR__.'/../../../Users/probook 6360b/Downloads/crampBase/' ) );
 }
