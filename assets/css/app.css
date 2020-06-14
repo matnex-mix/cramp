@@ -1,0 +1,25 @@
+.folder .fopt {
+	display: none;
+}
+
+.file .dopt {
+	display: none;
+}
+
+.img-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.table tr:nth-child(2) td:not(.name)>* {
+	display: none;
+}
+
+.name>a {
+	display: block;
+}
+
+.table td:nth-child(2) {
+	min-width: 200px;
+}
