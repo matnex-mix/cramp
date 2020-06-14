@@ -9,7 +9,11 @@ include_once 'sources/files.php';
 session_start();
 
 define( 'CRAMP_INIT', true );
+if( false ){ #debug is false
+define( 'CRAMP_BASE', realpath( '.' ) );
+} else {
 define( 'CRAMP_BASE', realpath( __DIR__.'/../../../Users/probook 6360b/Downloads/crampBase/' ) );
+}
 define( 'QUOTA', (1*1024*1024) );
 
 set_error_handler(function( $err ){
